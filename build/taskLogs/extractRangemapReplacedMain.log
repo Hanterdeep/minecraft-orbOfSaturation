@@ -1,0 +1,25 @@
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com/firstMod/config/Config.java" md5: cd94712804f27429e6b70e554fa30b7c
+endProcessing "com/firstMod/config/Config.java"
+
+startProcessing "com/firstMod/handlers/ItemHandler.java" md5: 6af6f91908d9879809a641637f3e9caa
+    Compile Error! Pb(646) Method references are allowed only at source level 1.8 or above
+    Compile Error! Pb(646) Method references are allowed only at source level 1.8 or above
+endProcessing "com/firstMod/handlers/ItemHandler.java"
+
+startProcessing "com/firstMod/items/BoneWand.java" md5: 1bd2a2cd16533e7f348760aa5d34f89d
+endProcessing "com/firstMod/items/BoneWand.java"
+
+startProcessing "com/firstMod/items/OrbOfSaturation.java" md5: d8ce14640790cb68b0fd4a8eb3e1a98d
+endProcessing "com/firstMod/items/OrbOfSaturation.java"
+
+startProcessing "com/firstMod/main/FirstMod.java" md5: 0480df1da21787c94552e9a056eb065a
+endProcessing "com/firstMod/main/FirstMod.java"
+
+startProcessing "com/firstMod/proxy/ClientProxy.java" md5: 16f39e690f2309590ab4049fd69f839d
+endProcessing "com/firstMod/proxy/ClientProxy.java"
+
+startProcessing "com/firstMod/proxy/CommonProxy.java" md5: 6a019d551093b58355f48d6facbf35a1
+endProcessing "com/firstMod/proxy/CommonProxy.java"
+
