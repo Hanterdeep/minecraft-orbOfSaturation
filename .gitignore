@@ -48,3 +48,10 @@ hs_err_pid*
 /forge-1.11.2-13.20.0.2315-changelog.txt
 /MinecraftForge-Credits.txt
 /CREDITS-fml.txt
+/out/
+
+# Compiled mod #
+
+!/build/libs/
+/firstMod.ipr
+/firstMod.iws
