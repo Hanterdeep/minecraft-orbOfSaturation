@@ -9,14 +9,14 @@ import net.minecraft.item.ItemStack;
 public class BoneWand extends Item {
     public BoneWand(String name, CreativeTabs tab) {
         super();
-//        FirstMod.LOGGER.info("Creating BoneWand with unlocalized and registry name: " + name);
+//        RandomMagicalItems.LOGGER.info("Creating BoneWand with unlocalized and registry name: " + name);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(tab);
     }
 
     public BoneWand(String name, CreativeTabs tab, int stackSize) {
-//        FirstMod.LOGGER.info("Creating "+ this.getClass().getSimpleName() + " with unlocalized and registry name: " + name);
+//        RandomMagicalItems.LOGGER.info("Creating "+ this.getClass().getSimpleName() + " with unlocalized and registry name: " + name);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(tab);

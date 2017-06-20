@@ -1,6 +1,6 @@
 package com.firstMod.items;
 
-import com.firstMod.main.FirstMod;
+import com.firstMod.main.RandomMagicalItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,7 +19,7 @@ public class OrbOfSaturation extends Item {
 
     public OrbOfSaturation(String name, CreativeTabs tab, int capacity) {
         super();
-//        FirstMod.LOGGER.info("Creating " + this.getClass().getSimpleName() + " with unlocalized and registry name: " + name);
+//        RandomMagicalItems.LOGGER.info("Creating " + this.getClass().getSimpleName() + " with unlocalized and registry name: " + name);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(tab);
@@ -73,7 +73,7 @@ public class OrbOfSaturation extends Item {
                     break;
                 }
                 catch (NullPointerException e) {
-                    FirstMod.LOGGER.catching(e);
+                    RandomMagicalItems.LOGGER.catching(e);
                 }
             }
         }
